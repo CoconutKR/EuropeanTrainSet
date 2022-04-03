@@ -7,21 +7,70 @@ STR_GRF_DESC                                        :유럽 열차 세트입니�
 STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
 
 # locomotive's name
-STR_AGV_NAME                                        :[EUT] AGV
+STR_AGV_NAME                                        :[ETS] AGV
+STR_BB15000_NAME                                    :[ETS] BB15000
+STR_Eurostar_E300_NAME                              :[ETS] 유로스타 E300
+STR_Eurostar_E320_NAME                              :[ETS] 유로스타 E320
+STR_ICE3_NAME                                       :[ETS] ICE3
+STR_Renfe_S_100_NAME                                :[ETS] Renfe S-100
+STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
+STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
+STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
+STR_TGV_OLD_NAME                                    :[ETS] TGV Old
+STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Old Duplex
+STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Old Pos
+STR_TGV_OLD_Poste_NAME                              :[ETS] TGV Old Poste
+STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
+STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 
 # wagon's name
-STR_EUT_1F_PASS_NAME                                :[EUT] 1층 공통 객차
-STR_EUT_2F_PASS_NAME                                :[EUT] 2층 공통 객차
+STR_ETS_1F_PASS_NAME                                :[ETS] 1층 공통 객차
+STR_ETS_2F_PASS_NAME                                :[ETS] 2층 공통 객차
+STR_TGV_Poste_wagon_NAME                            :[ETS] TGV Poste 화차
 
 # Parameters
+STR_PARAM_Regular_SPEED_Train_NAME                  :일반열차 속도변수
+STR_PARAM_Regular_SPEED_Train_DESC                  :일반열차의 속도를 조정합니다. (기본:151km/h)
 STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK} 도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}열차 실존여부 : {RED}가상 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}BB15000, GT26CW, HYEL-100, NJ2
+STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}Renfe S-100
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}Renfe S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}Renfe S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_OLD                        :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old
+STR_REFIT_ADDITIONAL_TGV_Old_Duplex                 :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Pos, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Poste, TGV Pos Poste
+STR_REFIT_ADDITIONAL_TGV_Ouigo                      :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Ouigo
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Pos, TGV Pos
 
+STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
 STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN}2층 승객 차량용
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV Old Poste
+
+# Liveries locomotive
+STR_REFIT_LIVERY_Eurostar_E300_Old                  :(유로스타 구도색)
+STR_REFIT_LIVERY_Eurostar_E300_New                  :(유로스타 신도색)
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Renfe S-130 Alvia)
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Renfe S-130 Aprosiyob)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Lyair Duplex)
+STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Old Duplex)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Old Lyair Duplex)
+STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Old Pos)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Old Lyair)
+STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV Old Thalys)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV Pos)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV Lyair)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV Thalys)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다

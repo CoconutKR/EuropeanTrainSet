@@ -29,7 +29,7 @@ spriteset(set_AGV_wagon_end, "src/locomotive/AGV/AGV.png"){
     wagon_panto(80, 81)
 }
 
-spriteset(set_AGV_engineT, "src/locomotive/AGV/AGV.png"){
+spriteset(set_AGV_engineT, "src/locomotive//AGV/AGV.png"){
     engine_r(80, 108)
 }
 

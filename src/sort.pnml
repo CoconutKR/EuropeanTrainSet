@@ -2,8 +2,23 @@
 정렬
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
-    AGV,                       //1011
-
-    EUT_1F_Passenger_Car,      //1009
-    EUT_2F_Passenger_Car       //1010
+    AGV,                       //1034
+    BB15000,                   //1035
+    Eurostar_E300,             //1036
+    Eurostar_E320,             //1037
+    ICE3,                      //1038
+    Renfe_S_100,               //1039
+    Renfe_S_103,               //1040
+    Renfe_S_130,               //1041
+    TGV_Duplex,                //1042
+    TGV_OLD,                   //1043
+    TGV_OLD_Duplex,            //1044
+    TGV_OLD_Pos,               //1045
+    TGV_Old_Poste,             //1046
+    TGV_Ouigo,                 //1047
+    TGV_Pos,                   //1048
+        
+    ETS_1F_Passenger_Car,      //1031
+    ETS_2F_Passenger_Car,      //1032
+    TGV_Poste_wagon,           //1033
     ]);
