@@ -10,7 +10,7 @@ Talgo 250
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Renfe_S_130, 1041){
+item(FEAT_TRAINS, Renfe_S_130, 1040){
     property {
         name:                           string(STR_Renfe_S_130_NAME);
         climates_available:             ALL_CLIMATES;

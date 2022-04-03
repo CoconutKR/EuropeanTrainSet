@@ -10,7 +10,7 @@ E320
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Eurostar_E320, 1037){
+item(FEAT_TRAINS, Eurostar_E320, 1036){
     property {
         name:                           string(STR_Eurostar_E320_NAME);
         climates_available:             ALL_CLIMATES;

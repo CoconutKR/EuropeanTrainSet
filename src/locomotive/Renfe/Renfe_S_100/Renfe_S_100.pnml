@@ -10,7 +10,7 @@ AVE
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Renfe_S_100, 1039){
+item(FEAT_TRAINS, Renfe_S_100, 1038){
     property {
         name:                           string(STR_Renfe_S_100_NAME);
         climates_available:             ALL_CLIMATES;

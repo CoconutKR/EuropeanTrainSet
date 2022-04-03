@@ -10,7 +10,7 @@ AVE Velaro
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Renfe_S_103, 1040){
+item(FEAT_TRAINS, Renfe_S_103, 1039){
     property {
         name:                           string(STR_Renfe_S_103_NAME);
         climates_available:             ALL_CLIMATES;
