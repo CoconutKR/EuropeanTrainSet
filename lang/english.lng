@@ -17,9 +17,9 @@ STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV Sud-Est
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
-STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Old Duplex
-STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Old Pos
-STR_TGV_OLD_Poste_NAME                              :[ETS] TGV Old Poste
+STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Réseau Duplex
+STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Réseau
+STR_TGV_OLD_Poste_NAME                              :[ETS] TGV La Poste
 STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 
@@ -57,23 +57,23 @@ STR_REFIT_train_configuration_2F                    :{BLACK}train configuration:
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV Old Poste
 
 # Liveries
-STR_REFIT_LIVERY_Eurostar_E300_Old                  :(Eurostar Old Color)
-STR_REFIT_LIVERY_Eurostar_E300_New                  :(Eurostar New Color)
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Renfe S-130 Alvia)
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Renfe S-130 Aprosiyob)
-STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex)
-STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Lyair Duplex)
-STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Old Duplex)
-STR_REFIT_LIVERY_TGV_Sud_Est_original               :(Orange Livery)
-STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(Blue & Grey Livery)
-STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(Carmillon Livery)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Old Lyair Duplex)
-STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Old Pos)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Old Lyair)
-STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV Old Thalys)
-STR_REFIT_LIVERY_TGV_POS                            :(TGV Pos)
-STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV Lyair)
-STR_REFIT_LIVERY_TGV_THALYS                         :(TGV Thalys)
+STR_REFIT_LIVERY_Eurostar_E300_Old                  :(Eurostar Old Livery)
+STR_REFIT_LIVERY_Eurostar_E300_New                  :(Eurostar New Livery)
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Alvia Livery)
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Aprosiyob Livery)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Réseau Duplex Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Réseau Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV Sud-Est Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV Sud-Est Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Atlantique · Réseau Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Atlantique · Réseau Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV PBA Thalys Livery)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV POS Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA Thalys Livery)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here

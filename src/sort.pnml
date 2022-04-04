@@ -10,10 +10,10 @@ sort(FEAT_TRAINS, [
     Renfe_S_103,               //1039
     Renfe_S_130,               //1040
     TGV_Sud_Est,               //1042
-    TGV_Duplex,                //1041
-    TGV_OLD_Duplex,            //1043
     TGV_OLD_Pos,               //1044
+    TGV_OLD_Duplex,            //1043
     TGV_Old_Poste,             //1045
+    TGV_Duplex,                //1041
     TGV_Ouigo,                 //1046
     TGV_Pos,                   //1047
         

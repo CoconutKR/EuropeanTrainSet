@@ -16,12 +16,12 @@ STR_Renfe_S_100_NAME                                :[ETS] Renfe S-100
 STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV 쉬드-에스트
-STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
-STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Old Duplex
-STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Old Pos
-STR_TGV_OLD_Poste_NAME                              :[ETS] TGV Old Poste
+STR_TGV_Duplex_NAME                                 :[ETS] TGV 듀플렉스
+STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV 레조 듀플렉스
+STR_TGV_OLD_Pos_NAME                                :[ETS] TGV 아틀랑티크·레조
+STR_TGV_OLD_Poste_NAME                              :[ETS] TGV 라포스트
 STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
-STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
+STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 
 # wagon's name
 STR_ETS_1F_PASS_NAME                                :[ETS] 1층 공통 객차
@@ -59,21 +59,21 @@ STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN
 # Liveries locomotive
 STR_REFIT_LIVERY_Eurostar_E300_Old                  :(유로스타 구도색)
 STR_REFIT_LIVERY_Eurostar_E300_New                  :(유로스타 신도색)
-STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Renfe S-130 Alvia)
-STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Renfe S-130 Aprosiyob)
-STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex)
-STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Lyair Duplex)
-STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Old Duplex)
-STR_REFIT_LIVERY_TGV_Sud_Est_original               :(오렌지 도색)
-STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(블루 & 그레이 도색)
-STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(카밀론 도색)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Old Lyair Duplex)
-STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Old Pos)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Old Lyair)
-STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV Old Thalys)
-STR_REFIT_LIVERY_TGV_POS                            :(TGV Pos)
-STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV Lyair)
-STR_REFIT_LIVERY_TGV_THALYS                         :(TGV Thalys)
+STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(알비아 도색)
+STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(아프로시욥 도색)
+STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV 레조 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV 레조 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV 쉬드-에스트 오렌지 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV 쉬드-에스트 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV 쉬드-에스트 카밀론 도색)
+STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV 아틀랑티크·레조 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV 아틀랑티크·레조 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV PBA 탈리스 도색)
+STR_REFIT_LIVERY_TGV_POS                            :(TGV 포스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV 포스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA 탈리스 도색)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :여기에 이 차량을 붙일 수 없습니다
