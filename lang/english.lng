@@ -7,26 +7,25 @@ STR_GRF_DESC                                        :European Train Set
 STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
 
 # locomotive's name
-STR_AGV_NAME                                        :[ETS] AGV
-STR_BB15000_NAME                                    :[ETS] BB15000
+STR_AGV_NAME                                        :[ETS] AGV (.italo)
 STR_Eurostar_E300_NAME                              :[ETS] Eurostar E300
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
 STR_ICE3_NAME                                       :[ETS] ICE3
-STR_Renfe_S_100_NAME                                :[ETS] Renfe S-100
-STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
-STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
+STR_Renfe_S_100_NAME                                :[ETS] Renfe AVE S-100
+STR_Renfe_S_103_NAME                                :[ETS] Renfe AVE S-103
+STR_Renfe_S_130_NAME                                :[ETS] Renfe Alvia S-130 & Talgo-250
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV Sud-Est
-STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
 STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV Reseau Duplex
 STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Reseau
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV La Poste
+STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
 STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 
 # wagon's name
 STR_ETS_1F_PASS_NAME                                :[ETS] 1F Passenger Car
 STR_ETS_2F_PASS_NAME                                :[ETS] 2F Passenger Car
-STR_TGV_Poste_wagon_NAME                            :[ETS] TGV Poste Freight Car
+STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight Car
 
 # Parameters
 STR_PARAM_Regular_SPEED_Train_NAME                  :Regular Train Speed Variable
@@ -44,7 +43,7 @@ STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-103
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Renfe S-130
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_OLD                        :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old
 STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Pos, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old Poste, TGV Pos Poste
