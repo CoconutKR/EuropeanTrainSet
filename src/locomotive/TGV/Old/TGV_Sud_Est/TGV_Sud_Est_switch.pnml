@@ -30,21 +30,26 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_start, cargo_subtype) {
     set_TGV_Sud_Est_Orange_wagon_start;
 }
 
+switch(FEAT_TRAINS, SELF, sw_TGV_TGV_Sud_Est_Orange_wagon_middle, (position_in_consist)) {
+    1: set_TGV_Sud_Est_Orange_wagon_r;
+    set_TGV_Sud_Est_Orange_wagon;
+}
+
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_special_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
     1: set_TGV_Sud_Est_Bluegrey_wagon_nomal;
     set_TGV_Sud_Est_Bluegrey_wagon_special;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_middle, cargo_subtype) {
-    1: set_TGV_Sud_Est_Bluegrey_wagon_nomal;
+    1: sw_TGV_Sud_Est_wagon_special_middle;
     2: set_TGV_Sud_Est_Carmillon_wagon_nomal;
-    set_TGV_Sud_Est_Orange_wagon;
+    sw_TGV_TGV_Sud_Est_Orange_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_bar_middle, cargo_subtype) {
     1: set_TGV_Sud_Est_Bluegrey_wagon_bar;
     2: set_TGV_Sud_Est_Carmillon_wagon_bar;
-    set_TGV_Sud_Est_Orange_wagon;
+    sw_TGV_TGV_Sud_Est_Orange_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_end, cargo_subtype) {
@@ -54,21 +59,19 @@ switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_end, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_bar, (position_in_consist %5) + 1) {
-    1: set_TGV_Sud_Est_Bluegrey_wagon_bar;
-    set_TGV_Sud_Est_Carmillon_wagon_bar;
+    1: sw_TGV_Sud_Est_wagon_bar_middle;
+    sw_TGV_Sud_Est_wagon_middle;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    TGV_Sud_Est: set_TGV_Sud_Est_Orange_wagon_r;
-    set_TGV_Sud_Est_Orange_wagon;
+    TGV_Sud_Est: sw_TGV_Sud_Est_wagon_end;
+    sw_TGV_Sud_Est_wagon_bar;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    TGV_Sud_Est: set_TGV_Sud_Est_Orange_wagon_start;
-    set_TGV_Sud_Est_Orange_wagon_r;
+    TGV_Sud_Est: sw_TGV_Sud_Est_wagon_start;
+    sw_TGV_Sud_Est_wagon_rear;
 }
-
-
 
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_attach, vehicle_type_id) {
     TGV_Sud_Est:                return CB_RESULT_ATTACH_ALLOW;
