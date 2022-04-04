@@ -17,7 +17,7 @@ STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV 쉬드-에스트
 STR_TGV_Duplex_NAME                                 :[ETS] TGV 듀플렉스
-STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV 레조 듀플렉스
+STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV 레조 듀플렉스
 STR_TGV_OLD_Pos_NAME                                :[ETS] TGV 아틀랑티크·레조
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV 라포스트
 STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
@@ -45,7 +45,7 @@ STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}열차 실존여부 
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}Renfe S-130
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_OLD                        :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old
-STR_REFIT_ADDITIONAL_TGV_Old_Duplex                 :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Pos, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Old Poste, TGV Pos Poste
 STR_REFIT_ADDITIONAL_TGV_Ouigo                      :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV Ouigo
@@ -63,8 +63,8 @@ STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(알비아 도색)
 STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(아프로시욥 도색)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
-STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV 레조 듀플렉스 블루 & 그레이 도색)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV 레조 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV 레조 듀플렉스 블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV 레조 듀플렉스 리리아·카밀론 도색)
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV 쉬드-에스트 오렌지 도색)
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV 쉬드-에스트 블루 & 그레이 도색)
 STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV 쉬드-에스트 카밀론 도색)

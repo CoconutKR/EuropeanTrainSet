@@ -17,8 +17,8 @@ STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV Sud-Est
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
-STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Réseau Duplex
-STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Réseau
+STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV Reseau Duplex
+STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Reseau
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV La Poste
 STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
@@ -45,7 +45,7 @@ STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}Renfe S-130
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_OLD                        :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old
-STR_REFIT_ADDITIONAL_TGV_Old_Duplex                 :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Pos, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old Poste, TGV Pos Poste
 STR_REFIT_ADDITIONAL_TGV_Ouigo                      :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Ouigo
@@ -63,13 +63,13 @@ STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Alvia Livery)
 STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Aprosiyob Livery)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Duplex Lyria & Carmillon Livery)
-STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Réseau Duplex Blue & Grey Livery)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Réseau Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV Reseau Duplex Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV Reseau Duplex Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV Sud-Est Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV Sud-Est Carmillon Livery)
-STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Atlantique · Réseau Blue & Grey Livery)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Atlantique · Réseau Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Atlantique · Reseau Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Atlantique · Reseau Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV PBA Thalys Livery)
 STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV POS Lyria & Carmillon Livery)

@@ -13,7 +13,7 @@
 #include "locomotive/TGV/New/TGV_Dulpex/TGV_Duplex.pnml"
 #include "locomotive/TGV/New/TGV_Pos/TGV_Pos.pnml"
 #include "locomotive/TGV/Old/TGV_Sud_Est/TGV_Sud_Est.pnml"
-#include "locomotive/TGV/Old/TGV_Old_Dulpex/TGV_Old_Duplex.pnml"
+#include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
 #include "locomotive/TGV/Old/TGV_Old_Pos/TGV_Old_Pos.pnml"
 #include "locomotive/TGV/Old/TGV_Old_Poste/TGV_Old_Poste.pnml"
 #include "locomotive/TGV/TGV_Ouigo/TGV_Ouigo.pnml"
