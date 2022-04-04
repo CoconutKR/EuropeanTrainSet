@@ -15,8 +15,8 @@ STR_ICE3_NAME                                       :[ETS] ICE3
 STR_Renfe_S_100_NAME                                :[ETS] Renfe S-100
 STR_Renfe_S_103_NAME                                :[ETS] Renfe S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe S-130 & Talgo-250
+STR_TGV_Sud_Est_NAME                                :[ETS] TGV 쉬드-에스트
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
-STR_TGV_OLD_NAME                                    :[ETS] TGV Old
 STR_TGV_OLD_Duplex_NAME                             :[ETS] TGV Old Duplex
 STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Old Pos
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV Old Poste
@@ -64,6 +64,9 @@ STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Renfe S-130 Aprosiyob)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Lyair Duplex)
 STR_REFIT_LIVERY_TGV_OLD_Duplex                     :(TGV Old Duplex)
+STR_REFIT_LIVERY_TGV_Sud_Est_original               :(오렌지 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(블루 & 그레이 도색)
+STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(카밀론 도색)
 STR_REFIT_LIVERY_TGV_OLD_LYAIR_Duplex               :(TGV Old Lyair Duplex)
 STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Old Pos)
 STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Old Lyair)
