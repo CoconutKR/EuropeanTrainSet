@@ -19,7 +19,6 @@ STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV Reseau Duplex
 STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Reseau
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV La Poste
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
-STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 
 # wagon's name
@@ -62,6 +61,7 @@ STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(Alvia Livery)
 STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(Aprosiyob Livery)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV Duplex Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV Duplex Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV Duplex OUIGO Livery)
 STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV Reseau Duplex Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV Reseau Duplex Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)

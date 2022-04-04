@@ -14,7 +14,6 @@ sort(FEAT_TRAINS, [
     TGV_Reseau_Duplex,         //1043
     TGV_Old_Poste,             //1045
     TGV_Duplex,                //1041
-    TGV_Ouigo,                 //1046
     TGV_Pos,                   //1047
         
     ETS_1F_Passenger_Car,      //1031

@@ -19,7 +19,6 @@ STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV 레조 듀플렉�
 STR_TGV_OLD_Pos_NAME                                :[ETS] TGV 아틀랑티크·레조
 STR_TGV_OLD_Poste_NAME                              :[ETS] TGV 라포스트
 STR_TGV_Duplex_NAME                                 :[ETS] TGV 듀플렉스
-STR_TGV_Ouigo_NAME                                  :[ETS] TGV Ouigo
 STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 
 # wagon's name
@@ -62,6 +61,7 @@ STR_REFIT_LIVERY_Renfe_S_130_Alvia                  :(알비아 도색)
 STR_REFIT_LIVERY_Renfe_S_130_Aprosiyob              :(아프로시욥 도색)
 STR_REFIT_LIVERY_TGV_Duplex                         :(TGV 듀플렉스 블루 & 그레이 도색)
 STR_REFIT_LIVERY_TGV_LYAIR_Duplex                   :(TGV 듀플렉스 리리아·카밀론 도색)
+STR_REFIT_LIVERY_TGV_OUIGO_Duplex                   :(TGV 듀플렉스 위고 도색)
 STR_REFIT_LIVERY_TGV_Reseau_Duplex                  :(TGV 레조 듀플렉스 블루 & 그레이 도색)
 STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV 레조 듀플렉스 리리아·카밀론 도색)
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV 쉬드-에스트 오렌지 도색)
