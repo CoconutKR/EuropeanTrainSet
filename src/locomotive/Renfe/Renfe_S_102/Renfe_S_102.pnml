@@ -2,26 +2,26 @@
 Talgo 250
 --------------------------------------------------------------------*/
 // Graphics
-#include "Renfe_S_130_graphic.pnml"
+#include "Renfe_S_102_graphic.pnml"
 
 // Switch
-#include "Renfe_S_130_switch.pnml"
+#include "Renfe_S_102_switch.pnml"
 
 /*--------------------------------------------------------------------
 열차정보
 --------------------------------------------------------------------*/
-item(FEAT_TRAINS, Renfe_S_130, 1040){
+item(FEAT_TRAINS, Renfe_S_102, 1098){
     property {
-        name:                           string(STR_Renfe_S_130_NAME);
+        name:                           string(STR_Renfe_S_102_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(2010, 1, 1);
+        introduction_date:              date(2005, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          260km/h;
+        speed:                          350km/h;
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
@@ -50,20 +50,20 @@ item(FEAT_TRAINS, Renfe_S_130, 1040){
         }
 
 	graphics {
-        default:                        sw_Renfe_S_130_engine;
-        purchase:                       sw_Renfe_S_130_purchase;
+        default:                        sw_Renfe_S_102_engine;
+        purchase:                       sw_Renfe_S_102_purchase;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
         cargo_capacity:                 0;
         purchase_cargo_capacity:        0;
-        can_attach_wagon:               sw_Renfe_S_130_wagon_attach;
+        can_attach_wagon:               sw_Renfe_S_102_wagon_attach;
         start_stop:                     sw_YST_train_start_stop_6;
-        additional_text:                string(STR_REFIT_ADDITIONAL_Renfe_S_130);
+        additional_text:                string(STR_REFIT_ADDITIONAL_Renfe_S_102);
         }
 
     livery_override(ETS_1F_Passenger_Car) {
-        default:                        sw_Renfe_S_130_wagon;
+        default:                        sw_Renfe_S_102_wagon;
         cargo_capacity:                 85;
         loading_speed:                  25;
         running_cost_factor:            150;

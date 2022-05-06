@@ -12,6 +12,7 @@ STR_Eurostar_E300_NAME                              :[ETS] Eurostar E300
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
 STR_ICE3_NAME                                       :[ETS] ICE3
 STR_Renfe_S_100_NAME                                :[ETS] Renfe AVE S-100
+STR_Renfe_S_102_NAME                                :[ETS] Renfe AVE S-102
 STR_Renfe_S_103_NAME                                :[ETS] Renfe AVE S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe Alvia S-130
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV Sud-Est
@@ -39,6 +40,7 @@ STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE3
 STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-102
 STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-103
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-130
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
