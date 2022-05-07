@@ -39,12 +39,12 @@ STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE3
-STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-100
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe S-100
 STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-102
 STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-103
 STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-130
 STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old
 STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
 STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Pos, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old Poste, TGV Pos Poste
@@ -73,6 +73,8 @@ STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV PBA Thalys Livery)
 STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV POS Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA Thalys Livery)
+STR_REFIT_LIVERY_Renfe_S_100_old                    :(Old Livery)
+STR_REFIT_LIVERY_Renfe_S_100_new                    :(Renewal Livery)
 
 # Errors
 STR_ERROR_NO_ATTACH                                 :You can't attach this car here
