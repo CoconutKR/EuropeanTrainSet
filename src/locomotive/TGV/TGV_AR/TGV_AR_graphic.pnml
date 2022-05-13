@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_TGV_AR_purchase, "src/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. TGV AR Pos
+--------------------------------------------------------------------*/
+spriteset(set_TGV_ARH_purchase, "src/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    tmpl_purchase_for_dualhead(0, 162)
+}
+
+spriteset(set_TGV_AR_engineH, "src\/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_AR_wagon_start, "src/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_AR_wagon_nomal, "src/locomotive/TGV/TGV_AR/TGV_AR.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_AR_wagon_bar, "src/locomotive/TGV/TGV_AR/TGV_AR.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_AR_wagon_special, "src/locomotive/TGV/TGV_AR/TGV_AR.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_AR_wagon_end, "src/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_AR_engineT, "src/locomotive/TGV/TGV_AR/TGV_AR.png"){
+    engine_r(80, 162)
+}
+
+/*--------------------------------------------------------------------
+2. TGV AR Lyair
+--------------------------------------------------------------------*/
+spriteset(set_TGV_AR_LyairH_purchase, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_TGV_AR_Lyair_engineH, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_AR_Lyair_wagon_start, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_AR_Lyair_wagon_nomal, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_AR_Lyair_wagon_bar, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_AR_Lyair_wagon_end, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_TGV_AR_Lyair_engineT, "src/locomotive/TGV/TGV_AR/TGV_AR_Lyair.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+3. TGV AR Thalys
+--------------------------------------------------------------------*/
+spriteset(set_TGV_AR_ThalysH_purchase, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_TGV_AR_Thalys_engineH, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_AR_Thalys_wagon_start, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_AR_Thalys_wagon, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_AR_Thalys_wagon_bar, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_AR_Thalys_wagon_end, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_TGV_AR_Thalys_engineT, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_TGV_AR_purchase, cargo_subtype) {
+    set_TGV_AR_purchase;
+}

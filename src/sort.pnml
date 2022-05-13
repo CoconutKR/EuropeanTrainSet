@@ -11,11 +11,11 @@ sort(FEAT_TRAINS, [
     Renfe_S_103,               //1039
     Renfe_S_130,               //1040
     TGV_Sud_Est,               //1042
-    TGV_OLD_Pos,               //1044
+    TGV_AR,                    //1044
     TGV_Reseau_Duplex,         //1043
     TGV_Duplex,                //1041
     TGV_Pos,                   //1047
-    TGV_Old_Poste,             //1045
+    TGV_La_Poste,              //1045
         
     ETS_1F_Passenger_Car,      //1031
     ETS_2F_Passenger_Car,      //1032

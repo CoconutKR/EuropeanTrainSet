@@ -16,9 +16,9 @@ STR_Renfe_S_102_NAME                                :[ETS] Renfe AVE S-102
 STR_Renfe_S_103_NAME                                :[ETS] Renfe AVE S-103
 STR_Renfe_S_130_NAME                                :[ETS] Renfe Alvia S-130
 STR_TGV_Sud_Est_NAME                                :[ETS] TGV Sud-Est
+STR_TGV_AR_NAME                                     :[ETS] TGV Atlantique · Reseau
 STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV Reseau Duplex
-STR_TGV_OLD_Pos_NAME                                :[ETS] TGV Atlantique · Reseau
-STR_TGV_OLD_Poste_NAME                              :[ETS] TGV La Poste
+STR_TGV_La_Poste_NAME                               :[ETS] TGV La Poste
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 
@@ -39,17 +39,16 @@ STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE3
-STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe S-100
-STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-102
-STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-103
-STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Duplex, TGV Duplex
-STR_REFIT_ADDITIONAL_TGV_Old_Pos                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Pos, TGV Pos
-STR_REFIT_ADDITIONAL_TGV_Old_Poste                  :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Old Poste, TGV Pos Poste
-STR_REFIT_ADDITIONAL_TGV_Ouigo                      :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV Ouigo
-STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Old Pos, TGV Pos
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Sud-Est
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Reseau Duplex, TGV Duplex
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
@@ -67,9 +66,9 @@ STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV Reseau Duplex Lyria & 
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV Sud-Est Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV Sud-Est Carmillon Livery)
-STR_REFIT_LIVERY_TGV_OLD_POS                        :(TGV Atlantique · Reseau Blue & Grey Livery)
-STR_REFIT_LIVERY_TGV_OLD_LYAIR                      :(TGV Atlantique · Reseau Lyria & Carmillon Livery)
-STR_REFIT_LIVERY_TGV_OLD_THALYS                     :(TGV PBA Thalys Livery)
+STR_REFIT_LIVERY_TGV_AR                             :(TGV Atlantique · Reseau Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_AR_LYAIR                       :(TGV Atlantique · Reseau Lyria & Carmillon Livery)
+STR_REFIT_LIVERY_TGV_AR_THALYS                      :(TGV PBA Thalys Livery)
 STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_LYAIR                          :(TGV POS Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_THALYS                         :(TGV PBKA Thalys Livery)
