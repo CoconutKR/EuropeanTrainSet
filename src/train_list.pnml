@@ -17,6 +17,7 @@
 #include "locomotive/TGV/TGV_Reseau_Dulpex/TGV_Reseau_Duplex.pnml"
 #include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
+#include "locomotive/TGV/TGV_M/TGV_M.pnml"
 
 // Sorting
 #include "sort.pnml"

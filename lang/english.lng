@@ -21,6 +21,7 @@ STR_TGV_Reseau_Duplex_NAME                          :[ETS] TGV Reseau Duplex
 STR_TGV_La_Poste_NAME                               :[ETS] TGV La Poste
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
+STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
 STR_ETS_1F_PASS_NAME                                :[ETS] 1F Passenger Car
@@ -49,6 +50,7 @@ STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
+STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
