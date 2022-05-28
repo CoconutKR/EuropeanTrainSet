@@ -24,8 +24,7 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_1F_PASS_NAME                                :[ETS] 1층 공통 객차
-STR_ETS_2F_PASS_NAME                                :[ETS] 2층 공통 객차
+STR_ETS_PASS_NAME                                   :[ETS] 1층 공통 객차
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV 라포스트 화차
 
 # Parameters
@@ -53,8 +52,7 @@ STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}열차 실존여부 
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
-STR_REFIT_train_configuration_1F                    :{BLACK}열차구성: {GREEN}1층 승객 차량용
-STR_REFIT_train_configuration_2F                    :{BLACK}열차구성: {GREEN}2층 승객 차량용
+STR_REFIT_train_configuration                       :{BLACK}열차구성: {GREEN}승객 차량용
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}열차구성: {GREEN}TGV Old Poste
 
 # Liveries locomotive
