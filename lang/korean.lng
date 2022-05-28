@@ -2,9 +2,9 @@
 ##gender m f
 
 # GRF name and description
-STR_GRF_NAME_WITH_VER                               :유럽 열차 세트 {VERSION}
-STR_GRF_DESC                                        :유럽 열차 세트입니다
-STR_GRF_URL                                         :https://github.com/KoreanGRF/KoreanEmptySet
+STR_GRF_NAME_WITH_VER                               :유럽 열차 세트 v{VERSION}
+STR_GRF_DESC                                        :{BLACK}유럽열차세트는 프랑스, 독일, 영국, 이탈리아, 스페인 등등 유럽의 열차를 추가해줍니다. 이 GRF는 YST에서 분리되어 제작된 NewGRF입니다. {}(최근 업데이트: {RECENT_UPDATED}){}{SILVER}+ 제작: 경부라이너
+STR_GRF_URL                                         :https://github.com/GBLINER/EuropeanTrainSet
 
 # locomotive's name
 STR_AGV_NAME                                        :[ETS] AGV (이탈로)
@@ -34,22 +34,21 @@ STR_PARAM_High_SPEED_Train_NAME                     :고속열차 속도변수
 STR_PARAM_High_SPEED_Train_DESC                     :고속열차의 속도를 조정합니다. (기본:331km/h)
 
 # Refit (Additional text) 실제(BLUE), 시험(YELLOW), 계획 (PURPLE), 가상 (RED)
-STR_REFIT_ADDITIONAL_AGV                            :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK} 도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_BB15000                        :{BLACK}열차 실존여부 : {RED}가상 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}BB15000, GT26CW, HYEL-100, NJ2
-STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
-STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
-STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-100
-STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-102
-STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-103
-STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 Alvia S-130
-STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 쉬드-에스트
-STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
-STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
-STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
-STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
-STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}열차 실존여부 : {BLUE}실제 {}{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
+STR_REFIT_ADDITIONAL_AGV                            :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합열차구성 : {RED}불가능
+STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}ICE3
+STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-100
+STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-102
+STR_REFIT_ADDITIONAL_Renfe_S_103                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 AVE S-103
+STR_REFIT_ADDITIONAL_Renfe_S_130                    :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}렌페 Alvia S-130
+STR_REFIT_ADDITIONAL_TGV_Duplex                     :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_Sud_Est                    :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 쉬드-에스트
+STR_REFIT_ADDITIONAL_TGV_Reseau_Duplex              :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 레조 듀플렉스, TGV 듀플렉스
+STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
+STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
+STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration                       :{BLACK}열차구성: {GREEN}승객 차량용
