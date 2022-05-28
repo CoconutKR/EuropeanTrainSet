@@ -61,7 +61,7 @@ item(FEAT_TRAINS, TGV_M, 1100){
         additional_text:                string(STR_REFIT_ADDITIONAL_TGV_M);
         }
         
-    livery_override(ETS_2F_Passenger_Car) {
+    livery_override(ETS_Passenger_Car) {
         default:                        sw_TGV_M_wagon;
         cargo_capacity:                 170;
         loading_speed:                  25;

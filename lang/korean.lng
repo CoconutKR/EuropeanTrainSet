@@ -24,7 +24,7 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_PASS_NAME                                   :[ETS] 1층 공통 객차
+STR_ETS_PASS_NAME                                   :[ETS] 승객 수송 차량
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV 라포스트 화차
 
 # Parameters

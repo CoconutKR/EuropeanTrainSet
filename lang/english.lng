@@ -24,8 +24,7 @@ STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 STR_TGV_M_NAME                                      :[ETS] TGV M
 
 # wagon's name
-STR_ETS_1F_PASS_NAME                                :[ETS] 1F Passenger Car
-STR_ETS_2F_PASS_NAME                                :[ETS] 2F Passenger Car
+STR_ETS_PASS_NAME                                :[ETS] 1F Passenger Car
 STR_TGV_Poste_wagon_NAME                            :[ETS] TGV La Poste Freight Car
 
 # Parameters
@@ -53,8 +52,7 @@ STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Existence of trains 
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Existence of trains : {BLUE}Real train {}{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
-STR_REFIT_train_configuration_1F                    :{BLACK}train configuration: {GREEN}1F passenger vehicles
-STR_REFIT_train_configuration_2F                    :{BLACK}train configuration: {GREEN}2F passenger vehicles
+STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}passenger vehicles
 STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV Old Poste
 
 # Liveries

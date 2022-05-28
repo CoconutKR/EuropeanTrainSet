@@ -18,7 +18,6 @@ sort(FEAT_TRAINS, [
     TGV_M,                     //1100
     TGV_La_Poste,              //1045
         
-    ETS_1F_Passenger_Car,      //1031
-    ETS_2F_Passenger_Car,      //1032
+    ETS_Passenger_Car,      //1031
     TGV_Poste_wagon,           //1033
     ]);
