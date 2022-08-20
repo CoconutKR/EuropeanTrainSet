@@ -6,6 +6,7 @@ sort(FEAT_TRAINS, [
     Eurostar_E300,             //1035
     Eurostar_E320,             //1036
     ICE3,                      //1037
+    ICE4,                      //1125
     Renfe_S_100,               //1038
     Renfe_S_102,               //1098
     Renfe_S_103,               //1039
@@ -18,6 +19,6 @@ sort(FEAT_TRAINS, [
     TGV_M,                     //1100
     TGV_La_Poste,              //1045
         
-    ETS_Passenger_Car,      //1031
+    ETS_Passenger_Car,         //1031
     TGV_Poste_wagon,           //1033
     ]);
