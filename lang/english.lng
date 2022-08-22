@@ -10,6 +10,7 @@ STR_GRF_URL                                         :https://github.com/GBLINER/
 STR_AGV_NAME                                        :[ETS] AGV (.italo)
 STR_Eurostar_E300_NAME                              :[ETS] Eurostar E300
 STR_Eurostar_E320_NAME                              :[ETS] Eurostar E320
+STR_ICE1_NAME                                       :[ETS] ICE1
 STR_ICE3_NAME                                       :[ETS] ICE3
 STR_ICE4_NAME                                       :[ETS] ICE4
 STR_Renfe_S_100_NAME                                :[ETS] Renfe AVE S-100
@@ -38,6 +39,7 @@ STR_PARAM_High_SPEED_Train_DESC                     :Adjust the speed of the hig
 STR_REFIT_ADDITIONAL_AGV                            :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
+STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE4
 STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe AVE S-100

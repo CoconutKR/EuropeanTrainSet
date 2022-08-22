@@ -5,6 +5,7 @@ sort(FEAT_TRAINS, [
     AGV,                       //1034
     Eurostar_E300,             //1035
     Eurostar_E320,             //1036
+    ICE1,                      //1126
     ICE3,                      //1037
     ICE4,                      //1125
     Renfe_S_100,               //1038
