@@ -21,19 +21,23 @@ spriteset(set_TGV_Sud_Est_Orange_wagon_start, "src\locomotive\TGV\TGV_Sud_Est\TG
 }
 
 spriteset(set_TGV_Sud_Est_Orange_wagon, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png") {
-    wagon_1F(80, 54)
+    wagon_1F_F(80, 54)
 }
 
 spriteset(set_TGV_Sud_Est_Orange_wagon_r, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png") {
-    wagon_1F_r(80, 54)
+    wagon_1F_F_r(80, 54)
+}
+
+spriteset(set_TGV_Sud_Est_Orange_wagon_bar, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png") {
+    wagon_bar(80, 81)
 }
 
 spriteset(set_TGV_Sud_Est_Orange_wagon_end, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    wagon_start(80, 81)
+    wagon_start(80, 108)
 }
 
 spriteset(set_TGV_Sud_Est_Orange_engineT, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_original.png"){
-    engine_r(80, 108)
+    engine_r(80, 135)
 }
 
 /*--------------------------------------------------------------------
