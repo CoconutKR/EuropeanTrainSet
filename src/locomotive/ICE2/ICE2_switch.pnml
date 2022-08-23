@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+스위치
+--------------------------------------------------------------------*/
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_cargo_subtype_text, cargo_subtype) {
+    1: return string(STR_REFIT_LIVERY_ICE2_green);   // 그린
+    return string(STR_REFIT_LIVERY_ICE2_red);      // 레드
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_engineH, cargo_subtype) {
+    1: set_ICE2_G_engineH;
+    set_ICE2_R_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_engineT, cargo_subtype) {
+    1: set_ICE2_G_engineT;
+    set_ICE2_R_engineT;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
+    1: sw_ICE2_engineT;
+    sw_ICE2_engineH;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_nomal, cargo_subtype) {
+    1: set_ICE2_G_wagon;
+    set_ICE2_R_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar, cargo_subtype) {
+    1: set_ICE2_G_wagon_bar;
+    set_ICE2_R_wagon_bar;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon, [STORE_TEMP(-3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    ICE2: sw_ICE2_wagon_bar;
+    sw_ICE2_wagon_nomal;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_attach, vehicle_type_id) {
+    ICE2:                   return CB_RESULT_ATTACH_ALLOW;
+    ETS_Passenger_Car:   return CB_RESULT_ATTACH_ALLOW;
+    return string(STR_ERROR_NO_ATTACH);
+}
