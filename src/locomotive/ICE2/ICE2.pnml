@@ -18,7 +18,7 @@ item(FEAT_TRAINS, ICE2, 1127){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
+        dual_headed:                    0;
         
         //spec
         speed:                          280km/h;
@@ -34,6 +34,7 @@ item(FEAT_TRAINS, ICE2, 1127){
         reliability_decay:              0;
         
         //Cargo
+        cargo_capacity:                 1;
         refittable_cargo_classes:       NO_CARGO_CLASS;
         non_refittable_cargo_classes:   NO_CARGO_CLASS;
         cargo_allow_refit:              [PASS];
@@ -51,6 +52,7 @@ item(FEAT_TRAINS, ICE2, 1127){
 	graphics {
         default:                        sw_ICE2_engine;
         purchase:                       sw_ICE2_purchase;
+        cargo_capacity:                 0;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;

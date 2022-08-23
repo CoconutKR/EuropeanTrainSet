@@ -9,10 +9,6 @@ spriteset(set_ICE2_R_purchase, "src/locomotive/ICE2/ICE2_R.png"){
 	tmpl_purchase(0, 0)
 }
 
-spriteset(set_ICE2_RH_purchase, "src/locomotive/ICE2/ICE2_R.png"){
-	tmpl_purchase_for_dualhead(0, 90)
-}
-
 spriteset(set_ICE2_R_engineH, "src/locomotive/ICE2/ICE2_R.png"){
 	ICEengine(80, 0)
 }
@@ -34,10 +30,6 @@ spriteset(set_ICE2_R_engineT, "src/locomotive/ICE2/ICE2_R.png"){
 --------------------------------------------------------------------*/
 spriteset(set_ICE2_G_purchase, "src/locomotive/ICE2/ICE2_G.png"){
 	tmpl_purchase(0, 0)
-}
-
-spriteset(set_ICE2_GH_purchase, "src/locomotive/ICE2/ICE2_G.png"){
-	tmpl_purchase_for_dualhead(0, 90)
 }
 
 spriteset(set_ICE2_G_engineH, "src/locomotive/ICE2/ICE2_G.png"){
