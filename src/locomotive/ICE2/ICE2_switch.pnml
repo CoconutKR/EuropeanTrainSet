@@ -32,9 +32,30 @@ switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar, cargo_subtype) {
     set_ICE2_R_wagon_bar;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_wagon, [STORE_TEMP(-3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_8car_8car_wagon, [STORE_TEMP(-3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
     ICE2: sw_ICE2_wagon_bar;
     sw_ICE2_wagon_nomal;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_16_wagon, [STORE_TEMP(-3, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    ICE2: sw_ICE2_wagon_bar;
+    sw_ICE2_wagon_nomal;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_16car_16car_wagon, [STORE_TEMP(4, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
+    ICE2: sw_ICE2_wagon_bar;
+    sw_ICE2_16_wagon;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ICE2_wagon, num_vehs_in_consist) {
+    8: sw_ICE2_8car_8car_wagon;
+    9: sw_ICE2_8car_8car_wagon;
+    10: sw_ICE2_8car_8car_wagon;
+    11: sw_ICE2_16car_16car_wagon;
+    12: sw_ICE2_16car_16car_wagon;
+    13: sw_ICE2_16car_16car_wagon;
+    sw_ICE2_8car_8car_wagon;
 }
 
 switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_attach, vehicle_type_id) {
