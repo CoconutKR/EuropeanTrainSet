@@ -18,7 +18,7 @@ item(FEAT_TRAINS, ICE2, 1127){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    0;
+        dual_headed:                    1;
         
         //spec
         speed:                          280km/h;

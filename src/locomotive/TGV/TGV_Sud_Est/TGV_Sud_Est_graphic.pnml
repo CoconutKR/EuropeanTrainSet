@@ -98,12 +98,16 @@ spriteset(set_TGV_Sud_Est_Carmillon_wagon_bar, "src\locomotive\TGV\TGV_Sud_Est\T
     wagon_bar(80, 81)
 }
 
+spriteset(set_TGV_Sud_Est_Carmillon_wagon_special, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png") {
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_TGV_Sud_Est_Carmillon_wagon_end, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png"){
-    wagon_start(80, 108)
+    wagon_start(80, 135)
 }
 
 spriteset(set_TGV_Sud_Est_Carmillon_engineT, "src\locomotive\TGV\TGV_Sud_Est\TGV_Sud_Est_new.png"){
-    engine_r(80, 135)
+    engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------

@@ -35,14 +35,19 @@ switch(FEAT_TRAINS, SELF, sw_TGV_TGV_Sud_Est_Orange_wagon_middle, (position_in_v
     set_TGV_Sud_Est_Orange_wagon_r;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_special_middle, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_special_middle_B, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
     1: set_TGV_Sud_Est_Bluegrey_wagon_nomal;
     set_TGV_Sud_Est_Bluegrey_wagon_special;
 }
 
+switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_special_middle_C, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
+    1: set_TGV_Sud_Est_Carmillon_wagon_nomal;
+    set_TGV_Sud_Est_Carmillon_wagon_special;
+}
+
 switch(FEAT_TRAINS, SELF, sw_TGV_Sud_Est_wagon_middle, cargo_subtype) {
-    1: sw_TGV_Sud_Est_wagon_special_middle;
-    2: set_TGV_Sud_Est_Carmillon_wagon_nomal;
+    1: sw_TGV_Sud_Est_wagon_special_middle_B;
+    2: sw_TGV_Sud_Est_wagon_special_middle_C;
     sw_TGV_TGV_Sud_Est_Orange_wagon_middle;
 }
 
