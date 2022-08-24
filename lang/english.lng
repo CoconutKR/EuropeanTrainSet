@@ -42,7 +42,7 @@ STR_REFIT_ADDITIONAL_Eurostar_E300                  :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_Eurostar_E320                  :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {RED}Unavailable
 STR_REFIT_ADDITIONAL_ICE1                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE1
 STR_REFIT_ADDITIONAL_ICE2                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE2
-STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}ICE3
+STR_REFIT_ADDITIONAL_ICE3                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE3
 STR_REFIT_ADDITIONAL_ICE4                           :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}ICE4
 STR_REFIT_ADDITIONAL_Renfe_S_100                    :{BLACK}Changing model/livery: {GREEN}Available {}{BLACK}Combined train: {GREEN}Renfe AVE S-100
 STR_REFIT_ADDITIONAL_Renfe_S_102                    :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Renfe AVE S-102
@@ -58,7 +58,7 @@ STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/liver
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration                       :{BLACK}train configuration: {GREEN}passenger vehicles
-STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV Old Poste
+STR_REFIT_train_configuration_TGV_Poste             :{BLACK}train configuration: {GREEN}TGV La Poste
 
 # Liveries
 STR_REFIT_LIVERY_Eurostar_E300_Old                  :(Eurostar Old Livery)
@@ -81,6 +81,11 @@ STR_REFIT_LIVERY_Renfe_S_100_old                    :(Old Livery)
 STR_REFIT_LIVERY_Renfe_S_100_new                    :(Renewal Livery)
 STR_REFIT_LIVERY_ICE2_red                           :(Red Livery)
 STR_REFIT_LIVERY_ICE2_green                         :(Green Livery)
+STR_REFIT_LIVERY_ICE3_red                           :(ICE 3 Red Livery)
+STR_REFIT_LIVERY_ICE3_green                         :(ICE 3 Green Livery)
+STR_REFIT_LIVERY_ICE3M_red                          :(ICE 3M Red Livery)
+STR_REFIT_LIVERY_ICE3M_green                        :(ICE 3M Green Livery)
+STR_REFIT_LIVERY_ICE3M_Blue                         :(ICE 3M Europa Livery)
 STR_REFIT_LIVERY_ICE4_red                           :(Red Livery)
 STR_REFIT_LIVERY_ICE4_green                         :(Green Livery)
 
