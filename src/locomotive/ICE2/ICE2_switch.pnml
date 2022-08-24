@@ -18,7 +18,6 @@ switch(FEAT_TRAINS, SELF, sw_ICE2_engineT, cargo_subtype) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_ICE2_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
-    1: sw_ICE2_engineT;
     sw_ICE2_engineH;
 }
 
@@ -33,13 +32,20 @@ switch(FEAT_TRAINS, SELF, sw_ICE2_wagon_bar, (position_in_consist %5) + 1) {
 }
 
 switch(FEAT_TRAINS, SELF, sw_ICE2_8car_wagon, (position_in_consist + 1) % 8) {
+    1: sw_ICE2_wagon_nomal;
+    2: sw_ICE2_wagon_nomal;
+    3: sw_ICE2_wagon_nomal;
     4: sw_ICE2_wagon_bar;
-    sw_ICE2_wagon_nomal;
+    5: sw_ICE2_wagon_nomal;
+    6: sw_ICE2_wagon_nomal;
+    7: sw_ICE2_wagon_nomal;
+    sw_ICE2_engineT;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ICE2_12car_wagon, (position_in_consist + 1) % 12) {
+switch(FEAT_TRAINS, SELF, sw_ICE2_12car_wagon, (position_in_consist + 1) % 14) {
     4: sw_ICE2_wagon_bar;
     10:sw_ICE2_wagon_bar;
+    13:sw_ICE2_engineT;
     sw_ICE2_wagon_nomal;
 }
 

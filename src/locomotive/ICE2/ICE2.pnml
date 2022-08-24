@@ -18,7 +18,7 @@ item(FEAT_TRAINS, ICE2, 1127){
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
-        dual_headed:                    1;
+        dual_headed:                    0;
         
         //spec
         speed:                          280km/h;
@@ -45,7 +45,7 @@ item(FEAT_TRAINS, ICE2, 1127){
         running_cost_base:              RUNNING_COST_ELECTRIC;
         
         //Flags
-        misc_flags:                     bitmask(TRAIN_FLAG_AUTOREFIT);
+        misc_flags:                     bitmask(TRAIN_FLAG_FLIP);
         extra_weight_per_wagon:         35 ton;
         }
 

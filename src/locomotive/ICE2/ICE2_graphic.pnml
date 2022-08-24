@@ -22,7 +22,7 @@ spriteset(set_ICE2_R_wagon_bar, "src/locomotive/ICE2/ICE2_R.png"){
 }
 
 spriteset(set_ICE2_R_engineT, "src/locomotive/ICE2/ICE2_R.png"){
-	ICEengine_r(80, 90)
+	ICEengine(80, 90)
 }
 
 /*--------------------------------------------------------------------
@@ -45,7 +45,7 @@ spriteset(set_ICE2_G_wagon_bar, "src/locomotive/ICE2/ICE2_G.png"){
 }
 
 spriteset(set_ICE2_G_engineT, "src/locomotive/ICE2/ICE2_G.png"){
-	ICEengine_r(80, 90)
+	ICEengine(80, 90)
 }
 
 
