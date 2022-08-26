@@ -9,6 +9,7 @@
 #include "locomotive/ICE1/ICE1.pnml"
 #include "locomotive/ICE2/ICE2.pnml"
 #include "locomotive/ICE3/ICE3.pnml"
+#include "locomotive/ICE3V/ICE3V.pnml"
 #include "locomotive/ICE4/ICE4.pnml"
 #include "locomotive/Renfe/Renfe_S_100/Renfe_S_100.pnml"
 #include "locomotive/Renfe/Renfe_S_102/Renfe_S_102.pnml"

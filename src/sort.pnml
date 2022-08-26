@@ -8,6 +8,7 @@ sort(FEAT_TRAINS, [
     ICE1,                      //1126
     ICE2,                      //1127
     ICE3,                      //1037
+    ICE3V,                     //1128
     ICE4,                      //1125
     Renfe_S_100,               //1038
     Renfe_S_102,               //1098
