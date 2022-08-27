@@ -67,7 +67,7 @@ item(FEAT_TRAINS, TGV_AR, 1044){
         default:                        sw_TGV_AR_wagon;
         cargo_subtype_text:             sw_TGV_AR_cargo_subtype_text;
         weight:                         37;
-        cargo_capacity:                 48;
+        cargo_capacity:                 sw_TGV_AR_capa;
         loading_speed:                  25;
         running_cost_factor:            150;
         }

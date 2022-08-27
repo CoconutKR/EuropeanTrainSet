@@ -2,21 +2,21 @@
 스위치
 --------------------------------------------------------------------*/
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_cargo_subtype_text, cargo_subtype) {
-    1: return string(STR_REFIT_LIVERY_TGV_AR_LYAIR);           
+    1: return string(STR_REFIT_LIVERY_TGV_A_blueLacroix);           
     2: return string(STR_REFIT_LIVERY_TGV_AR_THALYS);           
     return string(STR_REFIT_LIVERY_TGV_A_blue);
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_engineH, cargo_subtype) {
-    1: set_TGV_AR_Lyair_engineH;
+    1: set_TGV_A_BL_engineH;
     2: set_TGV_AR_Thalys_engineH;
-    set_TGV_A_BR_engineH;
+    set_TGV_A_B_engineH;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_engineT, cargo_subtype) {
-    1: set_TGV_AR_Lyair_engineT;
+    1: set_TGV_A_BL_engineT;
     2: set_TGV_AR_Thalys_engineT;
-    set_TGV_A_BR_engineT;
+    set_TGV_A_B_engineT;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_engine, position_in_consist_from_end == 0 && num_vehs_in_consist > 1){
@@ -25,33 +25,33 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_engine, position_in_consist_from_end == 0 &&
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_start, cargo_subtype) {
-    1: set_TGV_AR_Lyair_wagon_start;
+    1: set_TGV_A_BL_wagon_start;
     2: set_TGV_AR_Thalys_wagon_start;
-    set_TGV_A_BR_wagon_start;
+    set_TGV_A_B_wagon_start;
 }
 
-switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_special, (position_in_vehid_chain + 1) <= (num_vehs_in_vehid_chain / 2)) {
-    1: set_TGV_AR_Lyair_wagon_nomal;
+switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_special, cargo_subtype) {
+    1: set_TGV_A_BL_wagon_special;
     2: set_TGV_AR_Thalys_wagon;
-    set_TGV_A_BR_wagon_special;
+    set_TGV_A_B_wagon_special;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_middle, cargo_subtype) {
-    1: set_TGV_AR_Lyair_wagon_nomal;
+    1: set_TGV_A_BL_wagon_nomal;
     2: set_TGV_AR_Thalys_wagon;
-    set_TGV_A_BR_wagon_nomal;
+    set_TGV_A_B_wagon_nomal;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_bar, cargo_subtype) {
-    1: set_TGV_AR_Lyair_wagon_bar;
+    1: set_TGV_A_BL_wagon_bar;
     2: set_TGV_AR_Thalys_wagon_bar;
-    set_TGV_A_BR_wagon_bar;
+    set_TGV_A_B_wagon_bar;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_end, cargo_subtype) {
-    1: set_TGV_AR_Lyair_wagon_end;
+    1: set_TGV_A_BL_wagon_end;
     2: set_TGV_AR_Thalys_wagon_end;
-    set_TGV_A_BR_wagon_end;
+    set_TGV_A_B_wagon_end;
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_10car_wagon, (position_in_consist + 1) % 10) {
@@ -94,6 +94,25 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon, num_vehs_in_consist) {
     11: sw_TGV_AR_12car_wagon;
     12: sw_TGV_AR_12car_wagon;
     sw_TGV_AR_12car_wagon;
+}
+
+/*--------------------------------------------------------------------
+모델별 승객 차이 구현용 스위치
+--------------------------------------------------------------------*/
+
+switch(FEAT_TRAINS, SELF, sw_TGV_A_wagon_capa, position_in_consist) {
+    return 48;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_A_refurbishment_wagon_capa, position_in_consist) {
+    return 45;
+}
+
+switch(FEAT_TRAINS, SELF, sw_TGV_AR_capa, cargo_subtype) {
+    0: sw_TGV_A_wagon_capa;                                   // TGV 아틀랑티크 블루&그레이
+    1: sw_TGV_A_refurbishment_wagon_capa;                     // TGV 아틀랑티크 블루&그레이 라크루아
+    2: sw_TGV_A_wagon_capa;                                  // 미정
+    sw_TGV_A_wagon_capa;                   
 }
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_wagon_attach, vehicle_type_id) {
