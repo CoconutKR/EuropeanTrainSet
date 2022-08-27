@@ -73,7 +73,7 @@ STR_REFIT_LIVERY_TGV_Reseau_LYAIR_Duplex            :(TGV Reseau Duplex Lyria & 
 STR_REFIT_LIVERY_TGV_Sud_Est_original               :(TGV Sud-Est Orange Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_blue                   :(TGV Sud-Est Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_Sud_Est_new                    :(TGV Sud-Est Carmillon Livery)
-STR_REFIT_LIVERY_TGV_AR                             :(TGV Atlantique · Reseau Blue & Grey Livery)
+STR_REFIT_LIVERY_TGV_A_blue                         :(TGV Atlantique Blue & Grey Livery)
 STR_REFIT_LIVERY_TGV_AR_LYAIR                       :(TGV Atlantique · Reseau Lyria & Carmillon Livery)
 STR_REFIT_LIVERY_TGV_AR_THALYS                      :(TGV PBA Thalys Livery)
 STR_REFIT_LIVERY_TGV_POS                            :(TGV POS Blue & Grey Livery)

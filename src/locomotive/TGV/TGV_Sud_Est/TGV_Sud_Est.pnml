@@ -14,16 +14,16 @@ item(FEAT_TRAINS, TGV_Sud_Est, 1042){
     property {
         name:                           string(STR_TGV_Sud_Est_NAME);
         climates_available:             ALL_CLIMATES;
-        introduction_date:              date(1978, 1, 1);
+        introduction_date:              date(1981, 1, 1);
         track_type:                     ELRL;
         engine_class:                   ENGINE_CLASS_ELECTRIC;
         sprite_id:                      SPRITE_ID_NEW_TRAIN;
         dual_headed:                    1;
         
         //spec
-        speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        speed:                          300km/h;
+        power:                          6800 kW;
+        weight:                         38 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -53,7 +53,6 @@ item(FEAT_TRAINS, TGV_Sud_Est, 1042){
         default:                        sw_TGV_Sud_Est_engine;
         purchase:                       sw_TGV_Sud_Est_Orange_purchase;
         cargo_subtype_text:             sw_TGV_Sud_Est_cargo_subtype_text;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -67,7 +66,8 @@ item(FEAT_TRAINS, TGV_Sud_Est, 1042){
     livery_override(ETS_Passenger_Car) {
         default:                        sw_TGV_Sud_Est_wagon;
         cargo_subtype_text:             sw_TGV_Sud_Est_cargo_subtype_text;
-        cargo_capacity:                 85;
+        weight:                         38;
+        cargo_capacity:                 43;
         loading_speed:                  25;
         running_cost_factor:            150;
         }

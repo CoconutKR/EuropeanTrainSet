@@ -21,9 +21,9 @@ item(FEAT_TRAINS, TGV_AR, 1044){
         dual_headed:                    1;
         
         //spec
-        speed:                          362km/h;
-        power:                          8000 kW;
-        weight:                         40 ton;
+        speed:                          320km/h;
+        power:                          10400 kW;
+        weight:                         37 ton;
         tractive_effort_coefficient:    0.3;
         air_drag_coefficient:           0.01;
         
@@ -52,7 +52,6 @@ item(FEAT_TRAINS, TGV_AR, 1044){
 	graphics {
         default:                        sw_TGV_AR_engine;
         purchase:                       sw_TGV_AR_purchase;
-        speed:                          High_Speed_Train;
         loading_speed:                  25;
         cost_factor:                    10;
         running_cost_factor:            150;
@@ -67,7 +66,8 @@ item(FEAT_TRAINS, TGV_AR, 1044){
     livery_override(ETS_Passenger_Car) {
         default:                        sw_TGV_AR_wagon;
         cargo_subtype_text:             sw_TGV_AR_cargo_subtype_text;
-        cargo_capacity:                 85;
+        weight:                         37;
+        cargo_capacity:                 48;
         loading_speed:                  25;
         running_cost_factor:            150;
         }
