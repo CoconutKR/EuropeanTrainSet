@@ -62,8 +62,7 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_10car_wagon, (position_in_consist + 1) % 10)
     6: sw_TGV_AR_wagon_bar;
     7: sw_TGV_AR_wagon_special;
     8: sw_TGV_AR_wagon_special;
-    9: sw_TGV_AR_wagon_special;
-    10: sw_TGV_AR_wagon_end;
+    9: sw_TGV_AR_wagon_end;
     sw_TGV_AR_wagon_middle;
 }
 
@@ -77,8 +76,7 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_12car_wagon, (position_in_consist + 1) % 12)
     8: sw_TGV_AR_wagon_bar;
     9: sw_TGV_AR_wagon_special;
     10: sw_TGV_AR_wagon_special;
-    11: sw_TGV_AR_wagon_special;
-    12: sw_TGV_AR_wagon_end;
+    11: sw_TGV_AR_wagon_end;
     sw_TGV_AR_wagon_middle;
 }
 
