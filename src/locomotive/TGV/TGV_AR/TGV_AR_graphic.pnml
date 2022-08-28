@@ -76,34 +76,38 @@ spriteset(set_TGV_A_BL_engineT, "src/locomotive/TGV/TGV_AR/TGV_A_blueL.png"){
 }
 
 /*--------------------------------------------------------------------
-3. TGV AR Thalys
+3. TGV 아틀랑티크 카밀론
 --------------------------------------------------------------------*/
-spriteset(set_TGV_AR_ThalysH_purchase, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
-    tmpl_purchase_for_dualhead(0, 135)
+spriteset(set_TGV_A_CH_purchase, "src/locomotive/TGV/TGV_AR/TGV_A_c.png"){
+    tmpl_purchase_for_dualhead(0, 162)
 }
 
-spriteset(set_TGV_AR_Thalys_engineH, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+spriteset(set_TGV_A_C_engineH, "src\/locomotive/TGV/TGV_AR/TGV_A_c.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_AR_Thalys_wagon_start, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
+spriteset(set_TGV_A_C_wagon_start, "src/locomotive/TGV/TGV_AR/TGV_A_c.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_TGV_AR_Thalys_wagon, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png") {
+spriteset(set_TGV_A_C_wagon_nomal, "src/locomotive/TGV/TGV_AR/TGV_A_c.png") {
     wagon_1F_F(80, 54)
 }
 
-spriteset(set_TGV_AR_Thalys_wagon_bar, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png") {
+spriteset(set_TGV_A_C_wagon_bar, "src/locomotive/TGV/TGV_AR/TGV_A_c.png") {
     wagon_bar(80, 81)
 }
 
-spriteset(set_TGV_AR_Thalys_wagon_end, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
-    wagon_start(80, 108)
+spriteset(set_TGV_A_C_wagon_special, "src/locomotive/TGV/TGV_AR/TGV_A_c.png") {
+    wagon_1F_F(80, 108)
 }
 
-spriteset(set_TGV_AR_Thalys_engineT, "src/locomotive/TGV/TGV_AR/TGV_AR_Thalys.png"){
-    engine_r(80, 135)
+spriteset(set_TGV_A_C_wagon_end, "src/locomotive/TGV/TGV_AR/TGV_A_c.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_A_C_engineT, "src/locomotive/TGV/TGV_AR/TGV_A_c.png"){
+    engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
