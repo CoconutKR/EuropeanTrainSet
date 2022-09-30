@@ -1,9 +1,11 @@
 //wagon
 #include "wagon/passenger_wagon/passenger_wagon_all.pnml"
+#include "wagon/SPassenger_wagon/SPassenger_wagon.pnml"
 #include "wagon/TGV_Poste_wagon/TGV_Poste_wagon.pnml"
 
 //locomotive
 #include "locomotive/AGV/AGV.pnml"
+#include "locomotive/BB15000/BB15000.pnml"
 #include "locomotive/Eurostar_E300/Eurostar_E300.pnml"
 #include "locomotive/Eurostar_E320/Eurostar_E320.pnml"
 #include "locomotive/ICE1/ICE1.pnml"

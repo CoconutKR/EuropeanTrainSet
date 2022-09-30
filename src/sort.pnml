@@ -3,6 +3,7 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     AGV,                       //1034
+    BB15000,                   //1129
     Eurostar_E300,             //1035
     Eurostar_E320,             //1036
     ICE1,                      //1126
@@ -23,5 +24,6 @@ sort(FEAT_TRAINS, [
     TGV_La_Poste,              //1045
         
     ETS_Passenger_Car,         //1031
+    ETS_SPassenger_Car,        //1130
     TGV_Poste_wagon,           //1033
     ]);

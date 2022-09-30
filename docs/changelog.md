@@ -1,3 +1,16 @@
+2022.09.30 (릴리즈 미공개)
+-----
+* TGV Pos (리뉴얼)
+* TGV Pos Lyair (리뉴얼)
+* TGV Pos Thalys (리뉴얼)
+* TGV Duplex (객차 리뉴얼)
+* TGV Duplex TGV DUPLEX Lyria / Carmillon (객차 리뉴얼)
+* TGV DUPLEX Ouigo (객차 리뉴얼)
+* TGV Pos Carmillon (도색추가)
+* TGV M (리뉴얼)
+* BB15000 (신규)
+* 객차형 승객 차량 (신규)
+
 2022.08.28
 -----
 * ICE 1 (신규)

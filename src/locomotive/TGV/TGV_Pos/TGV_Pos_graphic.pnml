@@ -44,7 +44,7 @@ spriteset(set_TGV_Pos_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS.png"){
 2. TGV Lyair
 --------------------------------------------------------------------*/
 spriteset(set_TGV_LyairH_purchase, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    tmpl_purchase_for_dualhead(0, 135)
+    tmpl_purchase_for_dualhead(0, 162)
 }
 
 spriteset(set_TGV_Lyair_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
@@ -63,30 +63,34 @@ spriteset(set_TGV_Lyair_wagon_bar, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png
     wagon_bar(80, 81)
 }
 
+spriteset(set_TGV_Lyair_wagon_special, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png") {
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_TGV_Lyair_wagon_end, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    wagon_start(80, 108)
+    wagon_start(80, 135)
 }
 
 spriteset(set_TGV_Lyair_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Lyair.png"){
-    engine_r(80, 135)
+    engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
 3. TGV Thalys
 --------------------------------------------------------------------*/
 spriteset(set_TGV_ThalysH_purchase, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
-    tmpl_purchase_for_dualhead(0, 135)
+    tmpl_purchase_for_dualhead(0, 162)
 }
 
 spriteset(set_TGV_Thalys_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
     engine(80, 0)
 }
 
-spriteset(set_TGV_halys_wagon_start, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
+spriteset(set_TGV_Thalys_wagon_start, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
     wagon_start(80, 27)
 }
 
-spriteset(set_TGV_Thalys_wagon, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png") {
+spriteset(set_TGV_Thalys_wagon_nomal, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png") {
     wagon_1F_F(80, 54)
 }
 
@@ -94,12 +98,51 @@ spriteset(set_TGV_Thalys_wagon_bar, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.p
     wagon_bar(80, 81)
 }
 
+spriteset(set_TGV_Thalys_wagon_special, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png") {
+    wagon_1F_F(80, 108)
+}
+
 spriteset(set_TGV_Thalys_wagon_end, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
-    wagon_start(80, 108)
+    wagon_start(80, 135)
 }
 
 spriteset(set_TGV_Thalys_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Thalys.png"){
-    engine_r(80, 135)
+    engine_r(80, 162)
+}
+
+/*--------------------------------------------------------------------
+4. TGV Carmillon
+--------------------------------------------------------------------*/
+spriteset(set_TGV_CarmillonH_purchase, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    tmpl_purchase_for_dualhead(0, 162)
+}
+
+spriteset(set_TGV_Carmillon_engineH, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    engine(80, 0)
+}
+
+spriteset(set_TGV_Carmillon_wagon_start, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_TGV_Carmillon_wagon_nomal, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_TGV_Carmillon_wagon_bar, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_TGV_Carmillon_wagon_special, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png") {
+    wagon_1F_F(80, 108)
+}
+
+spriteset(set_TGV_Carmillon_wagon_end, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    wagon_start(80, 135)
+}
+
+spriteset(set_TGV_Carmillon_engineT, "src/locomotive/TGV/TGV_Pos/TGV_POS_Carmillon.png"){
+    engine_r(80, 162)
 }
 
 /*--------------------------------------------------------------------
