@@ -21,7 +21,7 @@ item(FEAT_TRAINS, AGV, 1034){
         dual_headed:                    1;
         
         //spec
-        speed:                          362km/h;
+        speed:                          300km/h;
         power:                          8000 kW;
         weight:                         40 ton;
         tractive_effort_coefficient:    0.3;
