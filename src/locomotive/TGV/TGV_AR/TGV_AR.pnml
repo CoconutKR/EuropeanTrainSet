@@ -21,7 +21,7 @@ item(FEAT_TRAINS, TGV_AR, 1044){
         dual_headed:                    1;
         
         //spec
-        speed:                          300km/h;
+        speed:                          320km/h;
         power:                          10400 kW;
         weight:                         37 ton;
         tractive_effort_coefficient:    0.3;
