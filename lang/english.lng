@@ -3,7 +3,7 @@
 
 # GRF name and description
 STR_GRF_NAME_WITH_VER                               :European Train Set v{VERSION}
-STR_GRF_DESC                                        :{BLACK}The European Train Set adds European trains such as France, Germany, England, Italy, and Spain. {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: GBLINER
+STR_GRF_DESC                                        :{BLACK}The European Train Set adds European trains such as France, Germany, UK, Italy, and Spain. {}(Updated: {RECENT_UPDATED}){}{SILVER}+ Author: GBLINER
 STR_GRF_URL                                         :https://github.com/GBLINER/EuropeanTrainSet
 
 # locomotive's name
