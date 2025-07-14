@@ -23,7 +23,7 @@ switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_middle, cargo_subtype) {
     set_ETR1000_wagon;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ETR1000_bar, cargo_subtype) {
+switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_bar, cargo_subtype) {
     set_ETR1000_wagon_bar;
 }
 
@@ -31,29 +31,15 @@ switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_end, cargo_subtype) {
     set_ETR1000_wagon_end;
 }
 
-switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_bar, (position_in_consist %5) + 1) {
-    1: sw_ETR1000_bar;
-    sw_ETR1000_wagon_middle;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_rear, [STORE_TEMP(1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]){
-    ETR1000: sw_ETR1000_wagon_end;
-    sw_ETR1000_wagon_bar;
-}
-
-switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon, [STORE_TEMP(-1, 0x10F), var[0x61, 0, 0x0000FFFF, 0xC6]]) {
-    ETR1000: sw_ETR1000_wagon_start;
-    sw_ETR1000_wagon_rear;
-}
 
 switch(FEAT_TRAINS, SELF, sw_TGV_AR_8car_wagon, (position_in_consist + 1) % 8) {
     2: sw_ETR1000_wagon_start;
     3: sw_ETR1000_wagon_bar;
     4: sw_ETR1000_wagon_start;
     5: sw_ETR1000_wagon_end;
-    6: sw_TGV_AR_wagon_middle;
+    6: sw_ETR1000_wagon_middle;
     7: sw_ETR1000_wagon_end;
-    sw_TGV_AR_wagon_middle;
+    sw_ETR1000_wagon_middle;
 }
 
 
