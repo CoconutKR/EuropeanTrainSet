@@ -42,6 +42,20 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_8car_wagon, (position_in_consist + 1) % 8) {
     sw_ETR1000_wagon_middle;
 }
 
+switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon, num_vehs_in_consist) {
+    3: sw_TGV_AR_8car_wagon;
+    4: sw_TGV_AR_8car_wagon;
+    5: sw_TGV_AR_8car_wagon;
+    6: sw_TGV_AR_8car_wagon;
+    7: sw_TGV_AR_8car_wagon;
+    8: sw_TGV_AR_8car_wagon;
+    9: sw_TGV_AR_8car_wagon;
+    10: sw_TGV_AR_8car_wagon;
+    11: sw_TGV_AR_8car_wagon;
+    12: sw_TGV_AR_8car_wagon;
+    sw_TGV_AR_8car_wagon;
+}
+
 
 switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_attach, vehicle_type_id) {
     ETR1000:            return CB_RESULT_ATTACH_ALLOW;

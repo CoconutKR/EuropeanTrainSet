@@ -63,7 +63,7 @@ item(FEAT_TRAINS, ETR1000, 1129){
         }
 
     livery_override(ETS_Passenger_Car) {
-        default:                        sw_ETR1000_wagon_middle;
+        default:                        sw_ETR1000_wagon;
         cargo_capacity:                 85;
         loading_speed:                  25;
         running_cost_factor:            150;
