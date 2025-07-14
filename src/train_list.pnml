@@ -24,6 +24,7 @@
 #include "locomotive/TGV/TGV_AR/TGV_AR.pnml"
 #include "locomotive/TGV/TGV_La_Poste/TGV_La_Poste.pnml"
 #include "locomotive/TGV/TGV_M/TGV_M.pnml"
+#include "locomotive/ETR1000/ETR1000.pnml"
 
 // Sorting
 #include "sort.pnml"

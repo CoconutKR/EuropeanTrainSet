@@ -3,6 +3,7 @@
 --------------------------------------------------------------------*/
 sort(FEAT_TRAINS, [
     AGV,                       //1034
+    ETR1000,                   //1129
     BB15000,                   //1129
     Eurostar_E300,             //1035
     Eurostar_E320,             //1036
@@ -22,6 +23,7 @@ sort(FEAT_TRAINS, [
     TGV_Pos,                   //1047
     TGV_M,                     //1100
     TGV_La_Poste,              //1045
+
         
     ETS_Passenger_Car,         //1031
     ETS_SPassenger_Car,        //1130

@@ -27,6 +27,7 @@ STR_TGV_La_Poste_NAME                               :[ETS] TGV 라포스트
 STR_TGV_Duplex_NAME                                 :[ETS] TGV 듀플렉스
 STR_TGV_Pos_NAME                                    :[ETS] TGV 포스
 STR_TGV_M_NAME                                      :[ETS] TGV M
+STR_ETR1000_NAME                                    :[ETS] 프레치아로사 1000 (ETR1000)
 
 # wagon's name
 STR_ETS_PASS_NAME                                   :[ETS] 승객 수송 차량
@@ -60,6 +61,7 @@ STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}도색/모델 변경
 STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV 라포스트
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}도색/모델 변경: {GREEN}가능 {}{BLACK}복합가능열차{}{GREEN}TGV 아틀랑티크·레조, TGV 포스
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}도색/모델 변경: {RED}불가능 {}{BLACK}복합가능열차{}{GREEN}TGV M
+STR_REFIT_ADDITIONAL_ETR1000                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Frecciarossa 1000
 
 STR_REFIT_ADDITIONAL                                :{BLACK}도색/모델 변경: {GREEN}가능
 STR_REFIT_train_configuration_Passenger             :{BLACK}열차구성: {GREEN}승객 차량용

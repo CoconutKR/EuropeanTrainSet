@@ -27,6 +27,7 @@ STR_TGV_La_Poste_NAME                               :[ETS] TGV La Poste
 STR_TGV_Duplex_NAME                                 :[ETS] TGV Duplex
 STR_TGV_Pos_NAME                                    :[ETS] TGV Pos
 STR_TGV_M_NAME                                      :[ETS] TGV M
+STR_ETR1000_NAME                                    :[ETS] Frecciarossa 1000 (ETR1000)
 
 # wagon's name
 STR_ETS_PASS_NAME                                   :[ETS] Passenger Car
@@ -60,6 +61,7 @@ STR_REFIT_ADDITIONAL_TGV_AR                         :{BLACK}Changing model/liver
 STR_REFIT_ADDITIONAL_TGV_La_Poste                   :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV La Poste
 STR_REFIT_ADDITIONAL_TGV_Pos                        :{BLACK}Changing model/livery: {GREEN}available {}{BLACK}Combined train: {GREEN}TGV Atlantique · Reseau, TGV Pos
 STR_REFIT_ADDITIONAL_TGV_M                          :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}TGV M
+STR_REFIT_ADDITIONAL_ETR1000                        :{BLACK}Changing model/livery: {RED}Unavailable {}{BLACK}Combined train: {GREEN}Frecciarossa 1000
 
 STR_REFIT_ADDITIONAL                                :{BLACK}Changing model/livery: {GREEN}Available
 STR_REFIT_train_configuration_Passenger             :{BLACK}train configuration: {GREEN}Passenger vehicles

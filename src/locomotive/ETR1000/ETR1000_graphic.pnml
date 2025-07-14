@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------------
+Graphics
+--------------------------------------------------------------------*/
+spriteset(set_ETR1000_purchase, "src/locomotive/ETR1000/ETR1000.png"){
+    tmpl_purchase(0, 0)
+}
+
+/*--------------------------------------------------------------------
+1. AVE
+--------------------------------------------------------------------*/
+spriteset(set_ETR1000H_purchase, "src/locomotive/ETR1000/ETR1000.png"){
+    tmpl_purchase_for_dualhead(0, 135)
+}
+
+spriteset(set_ETR1000_engineH, "src/locomotive/ETR1000/ETR1000.png"){
+    engine(80, 0)
+}
+
+spriteset(set_ETR1000_wagon_start, "src/locomotive/ETR1000/ETR1000.png"){
+    wagon_start(80, 27)
+}
+
+spriteset(set_ETR1000_wagon_bar, "src/locomotive/ETR1000/ETR1000.png") {
+    wagon_1F_F(80, 54)
+}
+
+spriteset(set_ETR1000_wagon, "src/locomotive/ETR1000/ETR1000.png") {
+    wagon_bar(80, 81)
+}
+
+spriteset(set_ETR1000_wagon_end, "src/locomotive/ETR1000/ETR1000.png"){
+    wagon_start(80, 108)
+}
+
+spriteset(set_ETR1000_engineT, "src/locomotive/ETR1000/ETR1000.png"){
+    engine_r(80, 135)
+}
+
+/*--------------------------------------------------------------------
+구매정보
+--------------------------------------------------------------------*/
+switch(FEAT_TRAINS, SELF, sw_ETR1000_purchase, cargo_subtype) {
+    set_ETR1000_purchase;
+}
