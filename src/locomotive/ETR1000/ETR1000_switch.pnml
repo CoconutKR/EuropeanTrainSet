@@ -32,7 +32,7 @@ switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon_end, cargo_subtype) {
 }
 
 
-switch(FEAT_TRAINS, SELF, sw_TGV_AR_8car_wagon, (position_in_consist + 1) % 8) {
+switch(FEAT_TRAINS, SELF, sw_ETR1000_8car_wagon, (position_in_consist + 1) % 8) {
     2: sw_ETR1000_wagon_start;
     3: sw_ETR1000_wagon_bar;
     4: sw_ETR1000_wagon_start;
@@ -42,18 +42,52 @@ switch(FEAT_TRAINS, SELF, sw_TGV_AR_8car_wagon, (position_in_consist + 1) % 8) {
     sw_ETR1000_wagon_middle;
 }
 
+switch(FEAT_TRAINS, SELF, sw_ETR1000_10car_wagon, (position_in_consist + 1) % 10) {
+    2: sw_ETR1000_wagon_start;
+    3: sw_ETR1000_wagon_middle;
+    4: sw_ETR1000_wagon_start;
+    5: sw_ETR1000_wagon_bar;
+    6: sw_ETR1000_wagon_middle;
+    7: sw_ETR1000_wagon_end;
+    8: sw_ETR1000_wagon_middle;
+    9: sw_ETR1000_wagon_end;
+    sw_ETR1000_wagon_middle;
+}
+
+switch(FEAT_TRAINS, SELF, sw_ETR1000_12car_wagon, (position_in_consist + 1) % 12) {
+    2: sw_ETR1000_wagon_start;
+    3: sw_ETR1000_wagon_middle;
+    4: sw_ETR1000_wagon_start;
+    5: sw_ETR1000_wagon_bar;
+    6: sw_ETR1000_wagon_start;
+    7: sw_ETR1000_wagon_end;
+    8: sw_ETR1000_wagon_middle;
+    9: sw_ETR1000_wagon_end;
+    10: sw_ETR1000_wagon_middle;
+    11: sw_ETR1000_wagon_end;
+    sw_ETR1000_wagon_middle;
+}
+
 switch(FEAT_TRAINS, SELF, sw_ETR1000_wagon, num_vehs_in_consist) {
-    3: sw_TGV_AR_8car_wagon;
-    4: sw_TGV_AR_8car_wagon;
-    5: sw_TGV_AR_8car_wagon;
-    6: sw_TGV_AR_8car_wagon;
-    7: sw_TGV_AR_8car_wagon;
-    8: sw_TGV_AR_8car_wagon;
-    9: sw_TGV_AR_8car_wagon;
-    10: sw_TGV_AR_8car_wagon;
-    11: sw_TGV_AR_8car_wagon;
-    12: sw_TGV_AR_8car_wagon;
-    sw_TGV_AR_8car_wagon;
+    3: sw_ETR1000_8car_wagon;
+    4: sw_ETR1000_8car_wagon;
+    5: sw_ETR1000_8car_wagon;
+    6: sw_ETR1000_8car_wagon;
+    7: sw_ETR1000_8car_wagon;
+    8: sw_ETR1000_8car_wagon;
+    9: sw_ETR1000_10car_wagon;
+    10: sw_ETR1000_10car_wagon;
+    11: sw_ETR1000_10car_wagon;
+    12: sw_ETR1000_12car_wagon;
+    13: sw_ETR1000_12car_wagon;
+    14: sw_ETR1000_12car_wagon;
+    15: sw_ETR1000_12car_wagon;
+    16: sw_ETR1000_12car_wagon;
+    17: sw_ETR1000_12car_wagon;
+    18: sw_ETR1000_12car_wagon;
+    19: sw_ETR1000_12car_wagon;
+    20: sw_ETR1000_12car_wagon;
+    sw_ETR1000_wagon_middle;
 }
 
 
